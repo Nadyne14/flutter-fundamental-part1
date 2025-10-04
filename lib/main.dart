@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:hello_world/basic_widgets/text_widget.dart';
 import 'package:hello_world/basic_widgets/image_widget.dart';
+import 'package:hello_world/basic_widgets/loading_cupertino.dart';
+import 'package:hello_world/basic_widgets/input_selection_widget.dart';
+import 'package:hello_world/basic_widgets/fab_widget.dart';
+import 'package:hello_world/basic_widgets/dialog_widget.dart';
+import 'package:hello_world/basic_widgets/date_time_picker.dart';
+import 'package:hello_world/basic_widgets/scaffold_widget.dart';
+
 
 
 void main() {
@@ -33,7 +40,16 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: MyHomePage(title: 'Nadyne Rosalia Noer Azizah'),
+      // home: MyHomePage(title: 'Nadyne Rosalia Noer Azizah'), //awal praktikum 1
+      // home: const LoadingCupertino(), //praktikum 5 langkah 1
+      // home: const FabWidget(), //praktikum 5 langkah 2
+      // home: const ScaffoldWidget(), //praktikum 5 langkah 3
+      // home: const DialogSnackbar(), //praktikum 5 langkah 4
+      // home: const InputSelectionWidget(), //praktikum 5 langkah 5
+      home: const DateTimePickerWidget(), //praktikum 5 langkah 6
+      
+      
+
     );
   }
 }
